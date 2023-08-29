@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: 0;
+  font-family: 나눔고딕, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+#box{
+  width: 1200px;
+  margin:0 auto;
+}
+.head{
+  width: 1200px; height: 100px;
+  margin:0 auto; 
+}
+
+.piclo{
+  text-align: center;
+}
+#menubar {
+	background :blanchedalmond;
+}
+#menubar ul{margin:0;padding:0;width:567px}
+#menubar ul li{display:inline-block;list-style-type:none;padding:0 15px}
+#menubar ul li a{text-decoration:none}
+#menubar ul li a:hover{color:violet}
+
+.jb-wrap{width:100%;margin:0;display:flex}
+.jb-wrap img{width:100%;vertical-align:middle}
+.jb-image>p{padding:5px 10px;background-color:#ff0;text-align:center}
+.jb-wrap{width:100%;margin:0;display:flex}
+.jb-wrap img{width:100%;vertical-align:middle}
+.jb-image>p{padding:5px 10px;background-color:#ff0;text-align:center}
+
+
+

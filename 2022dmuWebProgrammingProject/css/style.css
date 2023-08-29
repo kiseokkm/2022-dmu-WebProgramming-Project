@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* 언어 인코딩*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: 0;
+    font-family: 나눔고딕, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+#box{width:1200px;margin:0 auto}
+/*헤더영역지정 */
+.head{width:1200px;height:100px;margin:0 auto}
+.logo{width:2px;height:1px;float:left;margin-top:10px}
+/* 메뉴 */
+.navi{width:670px;height:50px;margin-top:30px;float:right;background:#fff}
+/*메인메뉴 css*/
+.navi>ul>li{float:left;width:25%;height:40px;text-align:center;line-height:40px;position:relative}
+.navi > ul > li:hover{background-color: black;} /*메인메뉴 마우스 오버시 배경색 변경 */
+.navi > ul > li:hover .mainmenu{color:#ffffff;} /*메인메뉴 마우스 오버시 글자색 변경 */
+.mainmenu{font-size: 18px; font-weight: bold;} /*메인메뉴 글자 설정 */
+.mainmenu:hover{color:#fff;} /* 메인메뉴 오버시 글자색 변경 */
+/*서브메뉴*/
+.submenu{position:absolute;top:40px;z-index:1;width:100%;height:280px;background-color:#eaeaea}
+.submenu li{width:100%;height:40px;text-align:center;line-height:40px}
+.submenu li a{display:block;width:100%;height:100%;font-size:14px}
+.submenu li a:hover{background-color:#000;color:#fff}
+
+.pic{display:flex;margin-left:auto}
+.pic-item{width:400px;height:324px;background-color:#fff;clear:both;overflow:hidden}
+.pic-item>img{width:100%;height:100%}
+
+
+.contents{width:120px;height:400px;display:flex}
+/* 탭메뉴 시작 */
+.tab{width:400px;height:380px;float:left;box-sizing:border-box;position:relative;border:1px solid #d8d8d8;margin-top:10px;margin-right:10px}
+.notice>a{display:inline-block;box-sizing:border-box;padding-top:5px;text-align:center;border-bottom:1px solid #d8d8d8;border-left:1px solid #d8d8d8;width:400px;height:30px;background:#ccc;color:#333}
+.notice > ul {margin-top:10px;}
+.notice > ul > li {height: 20px; margin-top: 10px;}
+.notice > ul > li > a {display: block; color: #333; font-size:0.9em;}
+.notice > ul > li > a > span {float: right; padding-right: 5px;}
+.notice > ul > li > a > p{float: left; padding-left: 5px;}
+
+/*    탭메뉴 끝     */
+
+.tab>span>a>img{height:100%;width:390px}
+.tab>span>img{height:100%;width:350px}
+.asd1>img{height:250px;width:1200px;margin:0 auto;display:inline-block}
+footer{font-size:0px;background-color:wheat;text-align:center}
+
